@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(0, 0, 0);
+  }
+  
+  
+  .container{
+   
+    background-color: lightgrey;
+    display: flex;
+  }
+  
+  
+  
+  .filho{
+  
+  width: 120px;
+  height: 120px;
+  background-color: rgb(180, 253, 253);
+  text-align:center;
+  margin: 5px;
+  border-radius: 30px;
+  }
+  
+  .claro{
+    background-color: #63b1bc;
+  }
+  
+  .escuro{
+    background-color: rgb(6, 6, 128);
+    color: white
+  }
+  
+  .rosa{
+   background-color: rgb(255, 51, 187);
+  }
+  
+  .amarelo{
+  background-color: rgb(241, 241, 38);
+  }
+  
+  .start{
+    justify-content: flex-start;
+  }
+  
+  .end{
+    justify-content: flex-end;
+  }
+  
+  .center{
+    justify-content: center;
+  }
+  
+  .space{
+    justify-content: space-between;
+  }
+  
+  .space_around{
+    justify-content: space-around;
+  }
+  
+  .space_nome{
+    justify-content: space-evenly; 
+  }
+
+  .exercicioB_1{
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+  }
+
+  .desafio{
+    flex-direction: row-reverse;
+    justify-content: left;
+
+  }
+
